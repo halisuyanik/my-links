@@ -19,6 +19,16 @@
     transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     background-color:rgb(50,199,102);
     color: #fff;
+    background: -webkit-linear-gradient(
+    to right,
+        #fffcdc,
+        rgb(50,199,102)
+    ); 
+    background: linear-gradient(
+        to right,
+        #fffcdc,
+        rgb(50,199,102)
+    ); 
 }
 
 .ld-custom-button-container:hover {
