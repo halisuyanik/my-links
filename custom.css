@@ -1,10 +1,10 @@
 
 .ld-custom-name {
-    color: black;
+    color:rgb(50,199,102);
 }
 
 .ld-custom-name:visited {
-    color: black;
+    color: rgb(121, 207, 151);
 }
 
 .ld-custom-button-container {
@@ -17,7 +17,7 @@
     -webkit-transition: -webkit-transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     -webkit-transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    background-color: #2665d6;
+    background-color:rgb(50,199,102);
     color: #fff;
 }
 
@@ -25,6 +25,7 @@
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
+    background-color:transparent;
 }
 
 .ld-custom-button {
@@ -37,5 +38,5 @@
 }
 
 .ld-custom-background-layer {
-    background-color: #fff;
+    background-image:url("https://github.com/halisuyanik/my-portfolio-react-tailwindcss-graphql/blob/main/public/Stars.svg");
 }
