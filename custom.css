@@ -1,10 +1,11 @@
-
 .ld-custom-name {
     color:rgb(50,199,102);
 }
 
 .ld-custom-name:visited {
     color: rgb(121, 207, 151);
+    
+
 }
 
 .ld-custom-button-container {
@@ -19,7 +20,20 @@
     transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     background-color:rgb(50,199,102);
     color: #fff;
+    opacity: 0;
+    animation: boxframes 1500ms 800ms forwards;
+}
 
+@keyframes boxframes {
+    from {
+    
+    
+    top: 25%;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
 }
 
 .ld-custom-button-container:hover {
@@ -30,7 +44,13 @@
     color:rgb(50,199,102);
     border-radius: 25px;
     border: 2px solid rgb(50,199,102);
-    padding: 20px;
+
+}
+.ld-custom-button-container::before {
+    background: linear-gradient(90deg, purple, green, hotpink);
+  z-index: -1;
+  filter: blur(20px);
+
 }
 
 .ld-custom-button {
