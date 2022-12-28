@@ -8,6 +8,10 @@
 
 }
 
+.ld-custom-description-h2{
+    color: white;
+}
+
 .ld-custom-button-container {
     -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
     -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
@@ -66,6 +70,7 @@
     background: url(https://raw.githubusercontent.com/halisuyanik/my-portfolio-react-tailwindcss-graphql/main/public/Stars.svg);
     background-attachment: fixed;
     animation: stars-move-in 1000ms 300ms forwards;
+    background-color: #101726;
 }
 @keyframes stars-move-in {
     from {
