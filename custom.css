@@ -20,12 +20,12 @@
     background-color:rgb(50,199,102);
     color: #fff;
     background: -webkit-linear-gradient(
-    to right,
+    to left,
         #fffcdc,
         rgb(50,199,102)
     ); 
     background: linear-gradient(
-        to right,
+        to left,
         #fffcdc,
         rgb(50,199,102)
     ); 
