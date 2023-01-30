@@ -67,7 +67,7 @@
 }
 
 .ld-custom-background-layer {
-    background: url(https://raw.githubusercontent.com/halisuyanik/my-portfolio-react-tailwindcss-graphql/main/public/Stars.svg);
+    background: url(https://raw.githubusercontent.com/halisuyanik/my-portfolio-react-graphql-tailwindcss/main/public/Stars.svg);
     background-attachment: fixed;
     animation: stars-move-in 1000ms 300ms forwards;
     background-color: #101726;
